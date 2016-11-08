@@ -11,7 +11,6 @@ if ($action == "creermembre")
 {
 	$membreController = new MembreController();
 	$membreController->createAction();
-	
 }
 
 else if ($action == "creercompte")
