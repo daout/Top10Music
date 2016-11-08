@@ -4,8 +4,6 @@ require_once "global.php";
 
 require_once constant("SITE_PATH") . "/src/controller/MembreController.php";
 
-
-
 $action = isset ($_GET["action"]) ? $_GET["action"] : "index";
 
 if ($action == "creermembre")
