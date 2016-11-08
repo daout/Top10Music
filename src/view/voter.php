@@ -1,7 +1,9 @@
 <?php
 include_once('rating.php')
 ?>
-<div id="voter">   
+
+<div id="voter">  
+ 
 		
 		<img src="img/rolling stones sympathy for devil.jpg"
 				width="50" height="50"> 1 - Rolling Stones : Sympathy for the devil
