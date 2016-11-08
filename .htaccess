@@ -1,0 +1,11 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+# NC : no case
+# L : Last
+
+RewriteRule ^([a-zA-Z0-9]+)\/([a-zA-Z0-9]+)$  index.php?action=$1&param1=$2 [NC,L]
+
+RewriteRule ^([a-zA-Z0-9]+)$ index.php?action=$1 [NC,L]
+
+RewriteRule ^/$ index.php [NC,L]
