@@ -4,11 +4,12 @@ include_once('rating.php')
 
 <div id="voter">  
  
-		
+		<div id="voter1">
 		<img src="img/rolling stones sympathy for devil.jpg"
 				width="50" height="50"> 1 - Rolling Stones : Sympathy for the devil
-				<input value="<?= getRatingByProductId(connect(), 1); ?>" type="number" class="rating" min=0 max=5 step=0.1 data-size="md" data-stars="5" productId=1>
-				 
+		<input value="<?= getRatingByProductId(connect(), 1); ?>" type="number" class="rating" min=0 max=5 step=0.1 data-size="xs" data-stars="5" productId=1>
+		</div>
+			 
 		<p></p>
 		<a href="https://www.youtube.com/watch?v=54W8kktFE_o"><img src="img/Pink Floyd Shine On You Crazy Diamond.jpg"
 						width="50" height="50" alt=""> 2 - Pink Floyd : Shine on you crazy diamond  </a>
